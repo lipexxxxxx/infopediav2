@@ -1,0 +1,95 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Segoe UI,Arial,sans-serif;
+background:#050816;
+color:white;
+line-height:1.6;
+background-image:
+radial-gradient(circle at 20% 20%, rgba(0,180,255,.15), transparent 20%),
+radial-gradient(circle at 80% 30%, rgba(140,0,255,.15), transparent 25%);
+}
+header{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+padding:20px 8%;
+background:rgba(5,8,22,.85);
+backdrop-filter:blur(12px);
+}
+.logo{
+font-size:2rem;
+font-weight:bold;
+letter-spacing:4px;
+color:#61dafb;
+}
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+.hero h1{
+font-size:5rem;
+background:linear-gradient(90deg,#61dafb,#b16cff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.hero h2{font-size:2rem;margin:10px 0}
+.hero p{max-width:700px}
+.btn{
+margin-top:20px;
+padding:14px 28px;
+border-radius:12px;
+background:#61dafb;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+.glass{
+width:min(1100px,90%);
+margin:35px auto;
+padding:30px;
+border-radius:24px;
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+}
+.timeline div{
+padding:12px;
+margin:10px 0;
+background:rgba(255,255,255,.04);
+border-radius:10px;
+}
+.project-card{
+padding:20px;
+background:rgba(255,255,255,.03);
+border-radius:16px;
+}
+.skill{margin:20px 0}
+.bar{
+height:14px;
+background:#222;
+border-radius:30px;
+overflow:hidden;
+margin-top:8px;
+}
+.bar span{
+display:block;
+height:100%;
+background:linear-gradient(90deg,#61dafb,#b16cff);
+}
+footer{
+text-align:center;
+padding:40px;
+color:#999;
+}
